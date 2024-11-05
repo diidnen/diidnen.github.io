@@ -1,0 +1,35 @@
+[
+  {
+    "path": "linear-algebra-basics",
+    "title": "Introduction to Linear Algebra",
+    "description": "Explore the fundamentals of vector spaces and linear transformations",
+    "category": "mathematics",
+    "date": "2024-01-15",
+    "readTime": 8
+  },
+  {
+    "path": "calculus-introduction",
+    "title": "Fundamentals of Calculus",
+    "description": "Understanding limits, derivatives, and integrals",
+    "category": "mathematics",
+    "date": "2024-01-20",
+    "readTime": 10
+  },
+  {
+    "path": "dynamic-programming",
+    "title": "Dynamic Programming",
+    "description": "Deep dive into Dynamic Programming",
+    "category": "programming",
+    "date": "2024-01-25",
+    "readTime": 12
+  },
+  {
+    "path":"plans",
+    "category":"thoughts",
+    "date":"2024-11-05",
+    "readTime":1,
+    "description":"Future plans for the website",
+    "title":"emmmm maybe plans"
+  }
+]
+

@@ -1,0 +1,42 @@
+{
+  "currentlyReading": [
+    {
+      "id": 1,
+      "title": "Computer Systems: A Programmer's Perspective",
+      "author": "Randal E. Bryant",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387708094i/829182.jpg",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/829182.Computer_Systems?from_search=true&from_srp=true&qid=prDiq44r7m&rank=1",
+      "progress": 10,
+      "startDate": "2024-10-03"
+    },
+    {
+      "id": 2,
+      "title": "Numerical Methods for Fluid Dynamics",
+      "author": "Dale R.Durran",
+      "goodreadsUrl": "https://www.coaps.fsu.edu/pub/eric/OCP5930/Papers/Numerical%20Methods%20for%20GFD%20by%20Durran.pdf",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348112855i/8362850.jpg",
+      "progress": 5,
+      "startDate": "2024-11-01"
+    }
+  ],
+  "completed": [
+    {
+      "id": 3,
+      "title": "Siddhartha",
+      "author": "Hermann Hesse",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/52036.Siddhartha?from_search=true&from_srp=true&qid=T2EMOeWy5X&rank=1",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1629378189i/52036.jpg",
+      "completionDate": "2024-8-30",
+      "rating": 5
+    }
+  ],
+  "wishlist": [
+    {
+      "id":4,
+      "title":"La Peste",
+      "author":"Albert Camus",
+      "goodreadsUrl":"https://www.goodreads.com/book/show/770754.La_peste?from_search=true&from_srp=true&qid=BNQE2SYf3Q&rank=1",
+      "cover":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1512853525i/770754.jpg"
+    }
+  ]
+} 

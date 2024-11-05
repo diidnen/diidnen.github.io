@@ -1,0 +1,50 @@
+/* ArticleList.css */
+body {
+  background-color: #ddd;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center; /* 居中对齐 */
+}
+
+.block {
+  position: relative;
+  display: block; /* 设置为块级元素 */
+  width: auto; /* 占据父容器宽度 */
+  max-width: 500px;                               /* 可选：设置最大宽度，限制元素过宽 */
+  height: auto;
+  border: 2px solid rgb(101, 138, 219);
+  border-radius: 5px;
+  margin: 20px; /* 每个元素上下间距 */
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background: white;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.block:hover {
+  transform: translateY(-20px); /* 鼠标悬停时向上移动 20px */
+}
+
+
+
+
+
+
+
+
+.text{
+  font-size: small;
+  font-weight: 300;
+
+}
+
+.block:hover{
+  opacity: 1;
+  visibility: visible;
+}
