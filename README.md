@@ -1,26 +1,7 @@
-# my-blog
+#My blog
+This is a simple structure using vue2.0,katex,markdown-it,hljs
 
-## Project setup
-```
-npm install
-```
+Later on may add function like 2d animation
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Any ui/ux suggestion please discuss
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# diidnen.github.io
-# diidnen.github.io
