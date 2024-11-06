@@ -19,15 +19,17 @@
     <section class="skills-section">
       <h2>Technical Skills</h2>
       <div class="skills-grid">
-        <div v-for="skill in skills" :key="skill.name" 
+        <div v-for="skill in skills" 
+             :key="skill.name" 
              class="skill-card"
-             :style="{ '--skill-color': skill.color }">
+             :style="{
+               '--skill-color': skill.color,
+               'borderColor': skill.color,
+               'backgroundColor': `${skill.color}10`
+             }">
           <div class="skill-header">
             <span class="skill-name">{{ skill.name }}</span>
-            <span class="skill-level">{{ skill.percent }}</span>
-          </div>
-          <div class="skill-bar">
-            <div class="skill-progress" :style="{ width: skill.percent }"></div>
+           
           </div>
         </div>
       </div>
@@ -139,26 +141,31 @@ export default {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+  padding: 1rem;
 }
 
 .skill-card {
+  position: relative;
   padding: 1.5rem;
-  background: white;
   border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  border: 2px solid var(--skill-color);
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .skill-header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 1rem;
+  color: var(--skill-color);
 }
 
 .skill-name {
@@ -315,6 +322,38 @@ export default {
 
   .timeline-item {
     padding-left: 2.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .skill-card {
+    padding: 1rem;
+  }
+}
+
+/* 添加渐变效果 */
+.skill-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--skill-color);
+  opacity: 0.7;
+}
+
+/* 暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .skill-card {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .skill-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
 }
 </style>

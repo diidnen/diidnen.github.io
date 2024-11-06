@@ -1,35 +1,39 @@
 <template>
-  <div class="app-container">
-    <header class="header" :class="{ 'header-hidden': !isNavVisible }">
-      <div class="header-container">
-        <div class="avatar-container">
-          <router-link to="/" class="avatar-link">
-          </router-link>
-        </div>
-        <nav class="nav">
-          <div class="nav-links">
-            <router-link
-              v-for="item in navigation"
-              :key="item.name"
-              :to="item.href"
-              class="nav-link"
-              :class="{ 'nav-link-active': $route.path === item.href }"
-            >
-              {{ item.name }}
+  <div id="app">
+    <div class="cursor"></div>
+    <div class="app-container">
+      <header class="header" :class="{ 'header-hidden': !isNavVisible }">
+        <div class="header-container">
+          <div class="avatar-container">
+            <router-link to="/" class="avatar-link">
             </router-link>
           </div>
-        </nav>
-        <div class="current-time">{{ currentTime }}</div>
-      </div>
-    </header>
-    <main class="main-content">
-      <router-view></router-view>
-    </main>
+          <nav class="nav">
+            <div class="nav-links">
+              <router-link
+                v-for="item in navigation"
+                :key="item.name"
+                :to="item.href"
+                class="nav-link"
+                :class="{ 'nav-link-active': $route.path === item.href }"
+              >
+                {{ item.name }}
+              </router-link>
+            </div>
+          </nav>
+          <div class="current-time">{{ currentTime }}</div>
+        </div>
+      </header>
+      <main class="main-content">
+        <router-view></router-view>
+      </main>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  name: 'App',
   data() {
     return {
       isNavVisible: true,
@@ -40,7 +44,8 @@ export default {
         { name: "About", href: "/" },
         { name: "Articles", href: "/articles" },
         { name: "Resume", href: "/resume" },
-        { name: "ReadingList", href: "/readinglist" }
+        { name: "ReadingList", href: "/readinglist" },
+        { name: "Focustimer", href: "/focustimer" }
       ]
     }
   },
@@ -49,6 +54,7 @@ export default {
     window.addEventListener('scroll', this.handleScroll, { passive: true })
     this.updateTime()
     this.timer = setInterval(this.updateTime, 1000)
+    document.addEventListener('mousemove', this.moveCursor)
   },
   
   destroyed() {
@@ -56,6 +62,7 @@ export default {
     if (this.timer) {
       clearInterval(this.timer)
     }
+    document.removeEventListener('mousemove', this.moveCursor)
   },
   
   methods: {
@@ -72,6 +79,14 @@ export default {
         minute: '2-digit',
         second: '2-digit'
       })
+    },
+
+    moveCursor(e) {
+      const cursor = document.querySelector('.cursor')
+      if (cursor) {
+        cursor.style.left = e.clientX + 'px'
+        cursor.style.top = e.clientY + 'px'
+      }
     }
   }
 }
@@ -91,7 +106,7 @@ export default {
   z-index: 50;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  left: 50%;
+  left: 55%;
   transform: translateX(-50%);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -237,4 +252,22 @@ export default {
     min-width: 80px;
   }
 }
+
+/* 隐藏原始鼠标 */
+* {
+  cursor: none !important;
+}
+
+/* 自定义鼠标样式 */
+.cursor {
+  width: 8px;
+  height: 8px;
+  background-color: #000000;  /* 点的颜色，可以修改 */
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+
+}
+
 </style>

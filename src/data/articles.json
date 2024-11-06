@@ -1,19 +1,11 @@
 [
   {
-    "path": "linear-algebra-basics",
-    "title": "Introduction to Linear Algebra",
-    "description": "Explore the fundamentals of vector spaces and linear transformations",
+    "path": "inner_product",
+    "title": "the inner product and to make the notion of an angle rigorous",
+    "description": "Explore the cauchy-schwarz inequality in the light of the inner product and the notion of an angle",
     "category": "mathematics",
-    "date": "2024-01-15",
-    "readTime": 8
-  },
-  {
-    "path": "calculus-introduction",
-    "title": "Fundamentals of Calculus",
-    "description": "Understanding limits, derivatives, and integrals",
-    "category": "mathematics",
-    "date": "2024-01-20",
-    "readTime": 10
+    "date": "2024-11-05",
+    "readTime": 5
   },
   {
     "path": "dynamic-programming",

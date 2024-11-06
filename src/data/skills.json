@@ -1,8 +1,8 @@
 [
-  { "name": "JavaScript", "color": "#f0db4f", "percent": "70%" },
-  { "name": "Python", "color": "#306998", "percent": "70%" },
-  { "name": "Html/Css", "color": "#61dafb", "percent": "75%" },
-  { "name": "Mathematics", "color": "#ff6b6b", "percent": "90%" },
-  { "name": "SQL", "color": "#204122", "percent": "60%" },
-  { "name": "Node.js", "color": "#232112", "percent": "70%" }
+  { "name": "JavaScript", "color": "#f0db4f", "percent": "20%" },
+  { "name": "Python", "color": "#306998", "percent": "10%" },
+  { "name": "Html/Css", "color": "#61dafb", "percent": "15%" },
+  { "name": "Mathematics", "color": "#ff6b6b", "percent": "15%" },
+  { "name": "SQL", "color": "#204122", "percent": "20%" },
+  { "name": "Node.js", "color": "#232112", "percent": "5%" }
 ] 

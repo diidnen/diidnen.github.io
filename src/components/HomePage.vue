@@ -12,7 +12,7 @@
         <p class="profile-description">
           A passionate <span class="highlight">Mathematics</span> and 
           <span class="highlight">Computer Science</span> enthusiast, 
-          currently in my second year at UCL. I like figuring out how things work(how internet and computer works, how to find common structure under different math objects ).
+          currently in my second year at UCL. I like figuring out how things work(how internet and computer works, how to find common structure under different math objects .etc ).
         </p>
       </div>
     </section>

@@ -5,6 +5,7 @@ import ResumePage from '@/components/Resume.vue';
 import ArticleList from '@/components/ArticleList.vue';
 import BlogArticle from '@/components/BlogArticle.vue';
 import ReadingList from '@/components/ReadingList.vue';
+import FocusTimer from '@/components/FocusTimer.vue';
 
 Vue.use(VueRouter);
 
@@ -36,7 +37,12 @@ const routes = [
     path: '/readinglist',
     name: 'ReadingList',
     component: ReadingList
-  }
+  },
+  {
+    path: '/focustimer',
+    name: 'FocusTimer',
+    component: FocusTimer
+  } 
 ];
 
 const router = new VueRouter({
