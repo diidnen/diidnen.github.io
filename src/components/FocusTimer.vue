@@ -10,7 +10,7 @@
           <input 
             v-model="newTask" 
             type="text" 
-            placeholder="添加新任务..."
+            placeholder="Add a task..."
             @keyup.enter="addTask"
             class="task-input"
           >
