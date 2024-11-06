@@ -9,11 +9,15 @@ export default new Vuex.Store({
     time: 0,
     isRunning: false,
     startTime: null,
-    currentTaskId: null
+    initialTime: 1500,
   },
 
   mutations: {
     SET_TIME(state, time) {
+      state.time = time
+    },
+    SET_INITIAL_TIME(state, time) {
+      state.initialTime = time
       state.time = time
     },
     SET_IS_RUNNING(state, isRunning) {
@@ -36,12 +40,17 @@ export default new Vuex.Store({
     startTimer({ commit, state }) {
       if (!state.isRunning) {
         commit('SET_IS_RUNNING', true)
-        commit('SET_START_TIME', Date.now() - (state.time * 1000))
+        commit('SET_START_TIME', Date.now() - ((state.initialTime - state.time) * 1000))
         
         const updateTimer = () => {
           if (state.isRunning) {
-            commit('SET_TIME', Math.floor((Date.now() - state.startTime) / 1000))
-            requestAnimationFrame(updateTimer)
+            const currentTime = state.initialTime - Math.floor((Date.now() - state.startTime) / 1000)
+            commit('SET_TIME', currentTime >= 0 ? currentTime : 0)
+            if (currentTime > 0) {
+              requestAnimationFrame(updateTimer)
+            } else {
+              commit('SET_IS_RUNNING', false)
+            }
           }
         }
         requestAnimationFrame(updateTimer)

@@ -9,5 +9,8 @@ module.exports = defineConfig({
       .loader('raw-loader')
       .end();
   },
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  publicPath: './'
 });
+
+
