@@ -1,0 +1,100 @@
+[
+  {
+    "path": "inner_product",
+    "title": "the inner product and to make the notion of an angle rigorous",
+    "description": "Explore the cauchy-schwarz inequality in the light of the inner product and the notion of an angle",
+    "category": "mathematics",
+    "date": "2024-11-05",
+    "readTime": 5
+  },
+  {
+    "path": "dynamic-programming",
+    "title": "Dynamic Programming",
+    "description": "Deep dive into Dynamic Programming",
+    "category": "programming",
+    "date": "2024-01-25",
+    "readTime": 5
+  },
+  {
+    "path":"plans",
+    "category":"thoughts",
+    "date":"2024-11-05",
+    "readTime":1,
+    "description":"Future plans for the website",
+    "title":"emmmm maybe plans"
+    
+  },
+  {
+    "path": "krunkerhacker",
+    "title": "Krunker Hacker",
+    "description": "Krunker Hacker written in javascript",
+    "category": "programming",
+    "date": "2024-11-06",
+    "readTime": 10
+  },
+  {
+    "path": "projects",
+    "title": "Projects",
+    "description": "Projects that I want to do",
+    "category": "thoughts",
+    "date": "2024-11-07",
+    "readTime": 1
+  },
+  {
+    "path": "shoutingapp",
+    "title": "Shouting App",
+    "description": "project for fun only ",
+    "category": "thoughts",
+    "date": "2024-11-07",
+    "readTime": 1 
+  },
+  {
+    "path": "Self-reflection",
+    "title": "Self-reflection",
+    "description": "Self-reflection recently",
+    "category": "thoughts",
+    "date": "2024-11-08",
+    "readTime": 5
+  },
+  {
+    "path": "Notes",
+    "title": "CS188 Notes",
+    "description": "Notes for CS188",
+    "category": "berkeley_cs188",
+    "date": "2024-11-09",
+    "readTime": 20
+  },
+  {
+    "path": "DualSpace",
+    "title": "Dual Space",
+    "description": "Dual Space",
+    "category": "mathematics",
+    "date": "2024-11-11",
+    "readTime": 5
+  },
+  {
+    "path": "AnalysisReview",
+    "title": "Analysis Review",
+    "description": "Analysis Review",
+    "category": "mathematics",
+    "date": "2024-11-11",
+    "readTime": 10
+  },
+  {
+    "path":"c++",
+    "title":"c++",
+    "description":"c++",
+    "category":"programming",
+    "date":"2024-11-11",
+    "readTime":5
+  },
+  {
+    "path":"janestreet",
+    "title":"janestreet",
+    "description":"kaggle competition",
+    "category":"programming",
+    "date":"2024-11-11",
+    "readTime":5
+  }
+]
+
