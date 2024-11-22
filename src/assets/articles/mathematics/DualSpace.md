@@ -8,7 +8,8 @@ F as a vector space over F.
 
 And then we define dual space: it is the vector space of all linear functionals on V.
 
-$$V^* = L(V,F) = \{\theta: V \to F \mid \theta \text{ is linear}\}$$(here is F vector space remember!!!)
+$V^* = L(V,F) = \{\theta: V \to F \mid \theta \text{ is linear}\}$
+(here is F vector space remember!!!)
 suffices to say where the basis(we need to emphasize on two things here, the first is that we need to define a map from a vector space and a vector space and then define dual space which are the linear maps from a vector spcae tod another space)
 
 for linear maps, we only care about its basis, as it 

@@ -95,6 +95,30 @@
     "category":"programming",
     "date":"2024-11-11",
     "readTime":5
+  },
+  {
+    "path":"fluidmechanics",
+    "title":"fluidmechanics",
+    "description":"review of fluid mechanics",
+    "category":"mathematics",
+    "date":"2024-11-19",
+    "readTime":10
+  },
+  {
+    "path":"Methods",
+    "title":"Methods",
+    "description":"methods review",
+    "category":"mathematics",
+    "date":"2024-11-19",
+    "readTime":10
+  },
+  {
+    "path":"algebra",
+    "title":"algebra",
+    "description":"algebra review",
+    "category":"mathematics",
+    "date":"2024-11-19",
+    "readTime":10
   }
 ]
 
