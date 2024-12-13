@@ -45,8 +45,8 @@ and then we can introduce the rank-nullity theorem for the linear transformation
 
 Dual maps:
 consider a map $T: V \to W$, then we can define its dual map to be $T^*: W^* \to V^*$ is given by $\theta \mapsto \theta*T$(where $T$ is the linear map of $L(V,W)$).
-
-a 
+(the dual map is a another type of dual space when we talk about matrix)
+why define something like this?
 
 
 

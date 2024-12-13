@@ -33,3 +33,6 @@ the intuition to construct the algorithm:
 - if there is no cycle, the fast pointer will reach the end of the list.
 
 proof：图论考虑距离等价
+
+
+尝试考虑等价的东西，很多东西换一种等价方式就可以更容易解决

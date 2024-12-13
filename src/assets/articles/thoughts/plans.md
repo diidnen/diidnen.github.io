@@ -32,3 +32,8 @@
 31. docker
 32. English to chinese and chinese to english
 33. 优化加载问题（thread，或者还有什么办法）
+34.拉格朗日乘数法局限性（x^5+y^3=1,求x+y的最值）
+35. notes 出题，random 出一个theory
+36. 证明资质的问题
+37. 创造需求
+38.给刘亚森说一些东西

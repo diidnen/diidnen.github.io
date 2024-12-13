@@ -78,8 +78,14 @@ export default {
   computed: {
     renderedContent() {
       try {
+        console.log(typeof this.content);
         return this.md.render(this.content || '');
       } catch (error) {
+        console.log('Content:', this.content);
+        if (typeof this.content !== 'string') {
+          console.error('Invalid content type:', typeof this.content);
+          return '';
+        }
         console.error('Markdown rendering error:', error);
         return '<h1>Error</h1><p>rendering error</p>';
       }

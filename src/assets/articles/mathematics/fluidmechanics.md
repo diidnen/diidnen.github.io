@@ -86,4 +86,7 @@ $$\frac{D\mathbf{u}}{Dt} = -\frac{1}{\rho} \nabla p_d$$
 
 this means that the acceleration of a fluid element is only  due to the gradient of the dynamic pressure. that the hydrostatic pressure simply balances the weight of the water
 
-H=p+1/2$\rho u^2$+$\rho gz$
+H=p+1/2$\rho u^2$+$\rho V_e$ is constant along streamlines ,note that this does not mean that the pressure takes the same value on each streamline.
+
+Bernoulli's law is a statement of the conservation of energy following a particle in an inviscid fluid of constant density(这里要inviscid是因为不想考虑粘性力 而且在计算的时候 F be conservative)
+
