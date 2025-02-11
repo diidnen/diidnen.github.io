@@ -90,3 +90,24 @@ H=p+1/2$\rho u^2$+$\rho V_e$ is constant along streamlines ,note that this does 
 
 Bernoulli's law is a statement of the conservation of energy following a particle in an inviscid fluid of constant density(这里要inviscid是因为不想考虑粘性力 而且在计算的时候 F be conservative)
 
+
+
+考虑海洋中的浪花，我们假设海洋具有��限深度，并且波浪的传播是二维的（沿着 $x$ 和 $z$ 方向），且波浪的传播是线性的。在这种情况下，波浪的控制方程为：$\nabla^2 \phi = 0$
+
+
+现在我们要考虑边界条件，我们假设波浪的传播是沿着 $x$ 方向的，那么我们可以得到波浪的边界条件为：
+
+1.along this surface the pressure in the fluid balances atmosphereic pressure
+可以把 $f(z)$ 在0处 展开，这样我们就可以得到 $f(z)$ 的表达式，然后我们可以apply到z=0处，这样我们就可以得到波浪的边界条件为：
+
+$\phi(x,z=0) = g\eta(x)$
+
+2.a particle on the surface remains on the surface:
+$z-\eta(x,t)=0 and w=\frac{\partial \eta}{\partial t} z=0$
+and $\frac{\partial \phi}{\partial z} = \frac{\partial^2 \eta}{\partial t^2}$ at $z=0$
+
+好像是一个叫做disturbance pressure的东西
+pressure fluctuation due to the displacement of the surface
+就是感觉是在wave运动的时候产生的力
+
+现在来找solution we are lookig for solutions that represent waves on the surface that is we want $\eta(x,t)$ to have the form $\eta(x,t)=Ae^{i(kx-\omega t)}$ (k is the wave number and $\omega$ is the angular frequency)

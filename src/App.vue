@@ -43,7 +43,6 @@ export default {
       navigation: [
         { name: "About", href: "/" },
         { name: "Articles", href: "/articles" },
-        { name: "Resume", href: "/resume" },
         { name: "ReadingList", href: "/readinglist" },
         { name: "Focustimer", href: "/focustimer" }
       ]
@@ -269,5 +268,8 @@ export default {
   z-index: 9999;
 
 }
+section1{
+  background-color: #000000;
+} 
 
 </style>

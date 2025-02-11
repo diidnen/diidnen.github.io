@@ -119,6 +119,84 @@
     "category":"mathematics",
     "date":"2024-11-19",
     "readTime":10
+  },
+  {
+    "path":"stocasticprocess",
+    "title":"stocasticprocess",
+    "description":"stocastic process review",
+    "category":"mathematics",
+    "date":"2024-11-19",
+    "readTime":10
+  },
+  { 
+    "path":"firstchapter",
+    "title":"firstchapter",
+    "description":"learncfa",
+    "category":"cfa",
+    "date":"2024-12-22"
+  },
+  { 
+    "path":"firstchapterreview",
+    "title":"firstchapterreview",
+    "description":"learncfa",
+    "category":"cfa",
+    "date":"2024-12-22"
+  },
+  {
+    "path":"probability",
+    "title":"probability",
+    "description":"probability anyways",
+    "category":"cfa",
+    "date":"2024-12-22"
+  },
+  {
+    "path":"economics",
+    "title":"economics",
+    "description":"economics anyways",
+    "category":"cfa",
+    "date":"2024-12-22"
+  },
+  {
+    "path":"analysis4",
+    "title":"analysis4",
+    "description":"analysis4",
+    "category":"mathematics",
+    "date":"2024-12-22"
+  },
+  {
+    "path":"metricspaces",
+    "title":"metricspaces",
+    "description":"metricspaces",
+    "category":"mathematics"
+  },
+  {"path":"numbertheory",
+    "title":"numbertheory",
+    "description":"numbertheory",
+    "category":"mathematics",
+    "date":"2024-12-22"},
+  {
+    "path": "algebra4",
+    "title": "algebra4",
+    "description": "介绍群论的基本概念、定义和重要性质",
+    "category": "mathematics",
+    "date": "2024-12-22",
+    "readTime": 10
+  },
+  {
+    "path": "financial_reporting",
+    "title": "Financial Reporting",
+    "description": "CFA Financial Reporting Notes",
+    "category": "cfa",
+    "date": "2024-12-22",
+    "readTime": 10
+  },
+  {
+    "path": "mit6824",
+    "title": "MIT 6.824",
+    "description": "MIT 6.824",
+    "category": "mit6.824",
+    "date": "2024-12-22",
+    "readTime": 8
   }
 ]
 
