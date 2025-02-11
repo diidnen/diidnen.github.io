@@ -1,0 +1,23 @@
+[
+  {
+    "company": "CITIC CHINA",
+    "title": "Investment Analyst",
+    "link": "https://www.citicbank.com/",
+    "dateRange": "July 2024 - August 2024",
+    "description": "Collecting data (e.g. PMI, GDP, PPI), analysing the state of the Chinese economy, and assessing trends in the bond market.",
+    "points": [
+      "Conducted in-depth analysis of U.S. Economic data, including GDP, unemployment rates, and consumer sentiment, to inform investment strategies.",
+      "Under the help of a tutor, developed and implemented asset allocation strategies to maximise client profits, tailoring portfolios to meet individual risk tolerances and investment goals."
+    ]
+  },
+  {
+    "company": "ABAO farm",
+    "title": "Retail Assistant",
+    "dateRange": "January 2023 - February 2023",
+    "description": "Assisted the owner in developing a WeChat mini-programme for fruit sales, enhancing customer engagement, and facilitating online orders.",
+    "points": [
+      "Analysed sales data to identify trends in product demand, enabling strategic pricing adjustments to optimise revenue.",
+      "Engaged with customers to understand their needs and preferences, fostering strong relationships, and creating a group on WeChat."
+    ]
+  }
+] 
