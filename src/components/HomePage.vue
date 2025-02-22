@@ -13,6 +13,7 @@
           A passionate <span class="highlight">Mathematics</span> and 
           <span class="highlight">Computer Science</span> enthusiast, 
           currently in my second year at UCL. I like figuring out how things work(how internet and computer works, how to find common structure under different math objects .etc ).
+          Looking at my github to learn more about me(e.g transformer,full stack project etc).
         </p>
       </div>
     </section>

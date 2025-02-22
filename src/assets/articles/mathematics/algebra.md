@@ -1,5 +1,21 @@
 # algebra review
 
+
+Field->F-vector space->subspace->The intersection of two subspaces is a subspace->sum of U and W is a subspace->linear combination->linearly independent->span->spanning set->basis->steinitz exchange lemma->We will see in the Jordan Normal Form section how useful this trick is.->(Corollary 2.10. Suppose V is an F-vector space with a basis of size n. Then
+1. Every basis of V has size n.
+2. Any linearly independent set of size n is a basis.
+3. Every spanning set of size n is a basis.
+4. Every finite spanning set contains a basis.
+5. Every linearly independent subset of V can be extended to basis)->dimension->dim(proper subspace)< dim(the space) ->Linear Maps(isomorphism, endomorphism, automorphism)->T-invariant(是用来描述subspace的)-> restriction->kernal and image->(linear map)$T:V \to W$ be linear.Then T is injective<=>KerT={0} and T is surjective<=> ImT=W
+If T is injective and S is a subspace of V then T(S) is a linearly independent set in W-> T is surjective and S spans V, then T(S) spans W->linear maps and matrices（there is a bijection between linear maps and matrices）->rank nullity Theorem->(internal)direct sum(complementary subspaces)->If V=U+W(direct sum here) if and only if every v can be written uniquely as u+w()
+
+
+
+
+
+
+
+
 ## bilinear and Hermitian forms
 
 Let $V$ and $W$ be two $F$-vector spaces. A bilinear form on $V$ and $W$ is a map $B: V \times W \to F$ such that for all $v \in V$ and $w \in W$, $B(v,w)$ is linear in $v$ and $w$. 

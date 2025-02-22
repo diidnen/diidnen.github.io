@@ -43,8 +43,8 @@ export default {
       navigation: [
         { name: "About", href: "/" },
         { name: "Articles", href: "/articles" },
-        { name: "ReadingList", href: "/readinglist" },
-        { name: "Focustimer", href: "/focustimer" }
+        //{ name: "ReadingList", href: "/readinglist" },
+        //{ name: "Focustimer", href: "/focustimer" }
       ]
     }
   },
