@@ -15,7 +15,7 @@
           currently in my second year at UCL. I like figuring out how things work(how machine learning and computer works, how to find common structure under different math objects .etc ).
           Looking at my <a href="https://github.com/diidnen" target="_blank" class="github-link">
             <i class="fab fa-github"></i> GitHub
-          </a> to learn more about me(e.g transformer,full stack project() etc).
+          </a> to learn more about me(e.g transformer,full stack project etc).
         </p>
       </div>
     </section>
