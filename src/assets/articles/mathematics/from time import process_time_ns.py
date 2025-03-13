@@ -68,7 +68,7 @@ class Head(nn.Module):
         k=self.key(x)#(B,T,head_size)
         q=self.query(x)
 
-        wei=   q @ k.transpose(-2,-1) *k.shape[-1]**(0.5)#torch.ones(block_size,block_size)#注意力矩阵
+        wei=   q @ k.transpose(-2,-1) *k.shape[-1]**(0.5)#torch.ones(block_size,block_size)#注意力矩阵 为什么可以这么定义
         wei=wei.masked_fill(self.tril==0,-inf)
         wei=F.softmax(wei,dim=-1)
         wei=self.dropout(wei)##这一步的作用
@@ -120,6 +120,9 @@ class LanguageModel(nn.Module):
             token_sequ = torch.cat((token_sequ, token_next), dim=1)  # 将新 token 添加到序列中
         new_tokens = token_sequ[:, -max_new_tokens:]  # 只返回新生成的 token
         return new_tokens
+
+###
+
 
 # 运行模型
 def main():

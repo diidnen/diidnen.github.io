@@ -148,3 +148,19 @@ warick summer school
 distributed system(mit)
 secruity
 ai
+对于输出知识的总结
+
+
+是否可以引导学生进行思考
+
+lean形式化证明
+
+整理所有的notes总结
+
+连接线
+
+如何思考得出
+
+
+
+有限元分析，蒙特卡洛方法，贝叶斯推断

@@ -12,8 +12,10 @@
         <p class="profile-description">
           A passionate <span class="highlight">Mathematics</span> and 
           <span class="highlight">Computer Science</span> enthusiast, 
-          currently in my second year at UCL. I like figuring out how things work(how internet and computer works, how to find common structure under different math objects .etc ).
-          Looking at my github to learn more about me(e.g transformer,full stack project etc).
+          currently in my second year at UCL. I like figuring out how things work(how machine learning and computer works, how to find common structure under different math objects .etc ).
+          Looking at my <a href="https://github.com/diidnen" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> GitHub
+          </a> to learn more about me(e.g transformer,full stack project() etc).
         </p>
       </div>
     </section>
@@ -91,14 +93,19 @@
 }
 
 .profile-description {
-  font-size: 1.25rem;
-  color: #64748b;
-  line-height: 1.7;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  text-align: justify;
 }
 
 .highlight {
-  color: #0ea5e9;
+  color: #42b883;
   font-weight: 600;
+  padding: 0 0.2rem;
 }
 
 .interest-section {
@@ -206,6 +213,26 @@
 
 .read-more:hover {
   color: #0284c7;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #24292e;
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.github-link:hover {
+  background-color: #f6f8fa;
+  color: #0366d6;
+}
+
+.github-link i {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {

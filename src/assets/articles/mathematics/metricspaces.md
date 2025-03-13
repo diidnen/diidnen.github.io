@@ -84,7 +84,7 @@ In a general topological space X, we say that S be a subset of X is closed in X 
 
 然后我们从这里可以发现其实open或者closed其实contain同等information，但是我们prefer open
 然后对于complete and totally bounded is not working(as (0,1) is isomorphism to R)
-and for sequences if we introduced it, this turns out to break a lot of desirable properties, and if we re discussing sequences you should assume that we are working with a metric space
+and for sequences if we introduced it, this turns out t-o break a lot of desirable properties, and if we re discussing sequences you should assume that we are working with a metric space
 
 open定义: This means for each point $x \in A$, there exists a rational neighborhood around x that is entirely contained within A
 
@@ -316,3 +316,110 @@ that induces the norm ∥ · ∥
 
 
 
+totally bounded和bounded感觉不一样
+bounded更多描述的是两个点之间的距离
+totally bounded是一种被cover的感觉
+(X,d)metric space and S is a subspace of X,if S is compact->closed and totally bounded
+And if there a more condition that (X,d) is complete then we can say if it is closed and totally bounded then S is compact S也可以是X
+(假设存在一个开覆盖没有有限子覆盖，然后利用完全有界性，那么我们能找的到一个球不能被有限个开覆盖覆盖（然后如果不是完全有界，那么就不一定找得到这么一个小球，）然后在下一步里面能构造一个柯西序列（构造小球，更小的球）使得它能converge到一个点，然后这个点所构造的圆就很小就会被覆盖）)
+Sequentially compact if every sequence of points in S has a subsequence converging to a point in S
+In any metric space, a set is compace if and only if it is sequentially compact
+In any metric space, a set is compact if and only if it is sequentially compact
+compact=>sequentially compact =>totally bounded,complete
+S is sequentially compact then S is totally bounded
+sequentially compact then (S,d) is complete
+X is compact if and only if it is complete and totally bounded
+Let(X,d) be a metric space an let D $\subset$ X.We say that D is dense in (X,d) if each point of X\D is a limit point of D, equivalently if $\bar{D}=X$
+We call a metric space (X,d) seperable if it has a countable dense subset
+空间中的点可以用一个“不太大”的集合（可数集）来“描述”或“逼近”。
+
+
+
+
+uniform convergence((这个是推论)$||f_n-f||_{sup} \to 0$)
+pointwise converge(对于每一个点，$n \to \infty$ $f_n(x) \to f(x)$)
+
+A natural question is whether or not limits of sequences of continuos functions are themeselves continuous(对于uniform continuous 是对的，但是pointwise continuous就不对)
+
+Let(X,d) be a metric space,If ($f_n$) is a sequence of functions from X to R such that $f_n \to f$ uniformly on X,each f_n is continuous, then f is continuous
+
+对于uniform convergence和cauchy在一定程度上等价，因为我们cauchy就是找到一个N，然后以后的东西的距离总是小于一个epsilon，
+
+next we wonder if limits of sequences of Riemann integrable functions are Riemann integrable if $f_n \to f$, is $lim_{n \to \infty} \int_{a}^{b} f_n(x)dx$=$\int_{a}^{b} f(x)dx$
+
+Central Principle of Uniform Convergence:
+Let X be a set. Then the sequence of functions (f_n) converges uniformly on X if and only if for every $\epsilon >0$, there exists an $N \in \mathbb{N}$ such that for all n,m $\geq N$,$||f_n-f_m||_{sup} < \epsilon$(把m $\to \infty$)
+
+
+series of functions
+我们去定义一个series converges pointwise是通过partial sums来定义，partial sum converges pointwise和partial sum converges uniformly
+有的时候去考虑一个series converges uniformly其实不是很容易，但是去考虑series not converge uniformly 还行
+
+If $||g_n||_{sup}  \centernot \to 0 when n \to \infty $, then the series $\sum_{n \in \mathbb{N}}g_n$ does not converge uniformly
+
+Weierstrass M-test
+Suppose($M_n$) is a sequence of points of $\mathbb{R}$ such that for all $n \in \mathbb{N}$,$||g_n||_{sup}$ $\leq M_n$, and $\sum_{n \in \mathbb{N}} M_n$ converges, Then $\sum_{n \in \mathbb{N}} g_n$ converges uniformly 
+
+
+when can we swap series and integrals
+两个theorem
+
+Approximating functions with polynomials
+就是对于每一个continuous function，there is a sequence of polynomials($(p_n)_{n \in \mathbb{N}}$ converging to $f$ uniformly on $[a,b]$)
+If f: [0,1] $\to \mathbb{R}$ is continuous then $B_n \to f$ uniformly on [0,1]
+
+通过概率来定义
+
+
+To characterize compact sets in C(X), we will need it that of equicontnuous sets
+equicontinuous
+continuous functions on compact intervals are uniformly continuous  
+S = {f(x) = αx + β : α, β ∈ R} - the set of all linear functions - is not equicontinuous(就是感觉uniform continuous可以epsilon变化和delta无关)
+换句话说epsilon
+every compact metric space K has a countable base,and that K is therefore seperable( $构造1/n_0$ )
+
+and we say that if a subset of the set of continuous function(就是一组函数) is compact if and only if closed, and equicontinuous,and bounded
+
+
+A set S ⊂ C(X) is equicontinuous if for all ε > 0, there
+exists δ > 0 such that for all f ∈ S, for all x, y ∈ X,
+d(x, y) < δ ⇒ |f(x) − f(y)| < ε 换句话说，也就是对于任意的x,y只要距离确定，|f(x)-f(y)|的大小也就确定
+
+
+relative compact
+
+Let (X, d) be a metric space. The map T : X → X is a
+contraction mapping if there exists some c ∈ [0, 1) such that for all x, y ∈ X:
+
+
+contraction mapping
+d(T(x), T(y)) ≤ cd(x, y).(换句话说也就是x,y的距离决定了T(X),T(Y)不能太远)
+感觉和derivitive有点关系
+
+The reason why contraction mappings are of interest to us is because they
+always have fixed points in complete metric spaces.
+
+. (Contraction Mapping Theorem) Let (X, d) be a non-empty
+complete metric space and let T : X → X be a contraction mapping. Then T has a unique fixed point x ∈ T, which satisfies x = limn→∞ xn, where $x_{n+1} = T(x_n)$
+and $ x_0 ∈ X$ is arbitrary.
+
+以及一个epsilon确定一个delta，然后这个delta对于所有的x,y都是work的
+
+这里关键的是complete以及complete说明的cauchy sequence一定converge而生成的那个
+
+Let P = [a, b] × [c, d]. Suppose that f : P → R is continuous on P and Lipschitz
+continuous with respect to its second argument, i.e. there exists L > 0 such that
+|f(x, u) − f(x, v)| ≤ L|u − v|, x ∈ [a, b], u, v ∈ [c, d].
+Then for any (x0, y0) ∈ (a, b) × (c, d) there exists h > 0 such that the following
+IVP has a unique solution:
+Find y : [x0 − h, x0 + h] → [c, d] such that y is continuously differentiable and
+y
+′
+(x) = f(x, y(x)), y(x0) = y0
+
+Picard-Lindel¨of感觉就是说我的f(x,y(x))会越来越趋近于这个斜率，在contraction mapping的作用下，以及我要在一个范围内保证我的斜率不会冲到很大
+
+In this section, we seek to answer the following question: if y and ˆy are two
+solutions of the same ODE but with different initial conditions, by how much
+can y and ˆy differ, i.e. can we somehow bound the size of ∥y − yˆ∥ in terms of
+|y0 − yˆ0|?

@@ -8,14 +8,6 @@
     "readTime": 5
   },
   {
-    "path": "dynamic-programming",
-    "title": "Dynamic Programming",
-    "description": "Deep dive into Dynamic Programming",
-    "category": "programming",
-    "date": "2024-01-25",
-    "readTime": 5
-  },
-  {
     "path":"plans",
     "category":"thoughts",
     "date":"2024-11-05",
@@ -31,30 +23,6 @@
     "category": "programming",
     "date": "2024-11-06",
     "readTime": 10
-  },
-  {
-    "path": "projects",
-    "title": "Projects",
-    "description": "Projects that I want to do",
-    "category": "thoughts",
-    "date": "2024-11-07",
-    "readTime": 1
-  },
-  {
-    "path": "shoutingapp",
-    "title": "Shouting App",
-    "description": "project for fun only ",
-    "category": "thoughts",
-    "date": "2024-11-07",
-    "readTime": 1 
-  },
-  {
-    "path": "Self-reflection",
-    "title": "Self-reflection",
-    "description": "Self-reflection recently",
-    "category": "thoughts",
-    "date": "2024-11-08",
-    "readTime": 5
   },
   {
     "path": "Notes",
@@ -120,14 +88,6 @@
     "date":"2024-11-19",
     "readTime":10
   },
-  {
-    "path":"stocasticprocess",
-    "title":"stocasticprocess",
-    "description":"stocastic process review",
-    "category":"mathematics",
-    "date":"2024-11-19",
-    "readTime":10
-  },
   { 
     "path":"firstchapter",
     "title":"firstchapter",
@@ -173,37 +133,6 @@
     "title":"numbertheory",
     "description":"numbertheory",
     "category":"mathematics",
-    "date":"2024-12-22"},
-  {
-    "path": "algebra4",
-    "title": "algebra4",
-    "description": "介绍群论的基本概念、定义和重要性质",
-    "category": "mathematics",
-    "date": "2024-12-22",
-    "readTime": 10
-  },
-  {
-    "path": "financial_reporting",
-    "title": "Financial Reporting",
-    "description": "CFA Financial Reporting Notes",
-    "category": "cfa",
-    "date": "2024-12-22",
-    "readTime": 10
-  },
-  {
-    "path": "mit6824",
-    "title": "MIT 6.824",
-    "description": "MIT 6.824",
-    "category": "mit6.824",
-    "date": "2024-12-22",
-    "readTime": 8
-  },
-  {
-    "path":"lys",
-    "title":"lys",
-    "description":"lys",
-    "category":"cfa",
-    "date":"2024-12-22"
-  }
+    "date":"2024-12-22"}
 ]
 

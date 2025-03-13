@@ -1,5 +1,18 @@
 # Review of Fluid Mechanics
 
+##
+
+
+
+
+
+
+
+
+
+
+
+
 ## Chapter 3: Dynamics
 
 The material derivative (or substantial derivative):
