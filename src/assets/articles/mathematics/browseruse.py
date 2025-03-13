@@ -28,14 +28,14 @@ async def run_search():
         browser = Browser(config=browser_config)
         
         # 设置环境变量
-        os.environ['DEEPSEEK_API_KEY'] = 'sk-ecaf12f9541c4eaca2e0cb3ec1621de2'
+        os.environ['DEEPSEEK_API_KEY'] = 'sk-eca'
         
         agent = Agent(
             task=('访问 amazon.com，搜索笔记本电脑，按评分排序，获取第一个结果的价格'),
             llm=ChatOpenAI(
                 base_url='https://api.deepseek.com/v1',
                 model='deepseek-reasoner',
-                api_key='sk-ecaf12f9541c4eaca2e0cb3ec1621de2',
+                api_key='sk-2',
                 timeout=30  # 设置API超时
             ),
             browser=browser,
