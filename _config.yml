@@ -9,21 +9,21 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Chuhan Song"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Chuhan Song"
+description              : &description "Chuhan Song's academic website"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://diidnen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "diidnen/diidnen.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "v2-063b36befbb6600973fafefb03ca63cf_1440w.png"  # Update with your profile image filename
+  avatar           : "v2-063b36befbb6600973fafefb03ca63cf_1440w.jpg"
   name             : "Chuhan Song"
   pronouns         : "he/him"
   bio              : "Third year undergraduate student in Mathematics at University College London. Research interests include deep learning, diffusion models, robustness of deep learning, AI in healthcare, and world models for AI."
