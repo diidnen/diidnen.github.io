@@ -7,5 +7,5 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student from [University College London](https://www.ucl.ac.uk/) (UCL). My research interest currently focuses on deep learning, e.g., diffusion models, robustness of deep learning, AI in healthcare, and world models for AI.
+I'm a third year undergraduate student from [University College London](https://www.ucl.ac.uk/) (UCL). My research interest currently focuses on Math and AI, e.g., diffusion models, robustness of deep learning, AI in healthcare, and world models for AI.
 
