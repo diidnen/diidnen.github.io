@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"  # Update with your profile image filename
+  avatar           : "v2-063b36befbb6600973fafefb03ca63cf_1440w.png"  # Update with your profile image filename
   name             : "Chuhan Song"
   pronouns         : "he/him"
   bio              : "Third year undergraduate student in Mathematics at University College London. Research interests include deep learning, diffusion models, robustness of deep learning, AI in healthcare, and world models for AI."
